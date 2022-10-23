@@ -20,13 +20,15 @@ async execute(message, client) {
         if(!chatbot) {
             return;
         } else {
- 
-
+        }
+try {
         if (!message.guild) return;
         if(message.author.id === client.user.id) return;
     const res = await axios.get(`"Your BRAINSHOP KEY HERE"=1&msg=${encodeURIComponent(message.content)}`)
 await chatbot.send({ content: `<@${message.author.id}> ${res.data.cnt}` })
-        }
+} catch (err) {
+    console.log(err)
+}
   
         
     })
