@@ -1,0 +1,4 @@
+{
+    "token": "Your bot token",
+    "DataBaseURL": "Your mongoDb url"
+}
