@@ -1,6 +1,6 @@
+
 const { ChatInputCommandInteraction } = require("discord.js");
-const { EmbedBuilder } = require("discord.js");
-const { GuildMember, Embed, InteractionCollector } = require("discord.js");
+
 
 module.exports = {
   name: "interactionCreate",
@@ -9,7 +9,6 @@ module.exports = {
    * @param { ChatInputCommandInteraction } interaction
    */
   async execute(interaction, client) {
-    const { values, customId, guild, member } = interaction;
     if (!interaction.isChatInputCommand()) return;
     const command = client.commands.get(interaction.commandName);
     if (!command)

@@ -1,4 +1,4 @@
-const {Message, Client, SlashCommandBuilder, PermissionFlagsBits} = require("discord.js");
+const { SlashCommandBuilder, PermissionFlagsBits} = require("discord.js");
 const welcomeSchema = require("../../Schemas/Chatbot");
 const {model, Schema} = require("mongoose");
 
@@ -14,7 +14,7 @@ module.exports = {
     ),
 
     async execute(interaction) {
-        const {channel, options} = interaction;
+        const {options} = interaction;
 
         const welcomeChannel = options.getChannel("channel");
     
