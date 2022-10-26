@@ -1,4 +1,4 @@
 {
-    "token": "Your bot token",
-    "DataBaseURL": "Your mongoDb url"
+    "token": "MTAyODUzNjczNDU1MzczOTI5Mw.Gs1jg4.NYOyjHdy9DO2MHm7nW8tI0TTW6rmfjF23mwFhk",
+    "DataBaseURL": "mongodb+srv://MONDISTECH:Bhargav@discordbot.inmfsod.mongodb.net/?retryWrites=true&w=majority"
 }
