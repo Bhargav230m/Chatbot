@@ -1,5 +1,5 @@
 {
     "token": "Your Bot Token",
     "DataBaseURL": "MongoDB url",
-    "BrainShopAPI": "Your brainshop api key"
+    "BrainShopAPI": "http://api.brainshop.ai/get?bid=170102&key=eSh1QCThZ8qIugQA&uid="
 }
